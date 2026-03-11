@@ -92,7 +92,7 @@ public class MovieBrowserApp {
         );
         
         if (result == JOptionPane.OK_OPTION) {
-            return apiKeyField.getText().trim();
+            return apiKeyddField.getText().trim();
         }
         
         return null;
